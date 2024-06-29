@@ -1,0 +1,11 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+#none{
+    visibility:hidden; 
+}

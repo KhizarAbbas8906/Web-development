@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="file:///D:/web development/CSS/style.css">
+</head>
+<body>
+    <header>
+        <h2>Travel reservation form</h2>
+
+    </header>
+    <main>
+        <form action="action.php">
+            <p>*denotes mandotory</p>
+            <div id="name">
+               <label for="fName">Full name* :</label>
+               <br>
+               <input type="text" name="fullName" id="fName" placeholder="First name Last name">   
+            </div><br>
+
+            <div id="EMAIL_ADDRESS">
+               <label for="eAddress">Email address*: </label><br>
+               <input type="email" name="eAddress" id="eAddress" placeholder="EMAIL_ADDRESS">
+            </div><br>
+
+            <div id="tour_package">
+                <label for="package">Select Tour package*:</label> <br>
+                <select name="package" id="package">
+                    <option value="Goa">Goa</option>
+                    <option value="Simla">Simla</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Brazil">Brazil</option>
+                </select>
+            </div><br>
+
+            <div id="arrivalDate">
+                <label for="aDate">Arrival Date*:</label><br>
+                <input type="date" name="eDate" id="eDate" placeholder="m/d/y">
+            </div><br>
+
+            <div class="form" id="amenititesInput">
+                <label for="amenitites">What would you want ot avail*: </label><br>
+                <label >
+                    Boarding
+                    <input type="checkbox" name="amenitites" id="Boarding" value="Boarding">
+                </label><br>
+                <label >
+                    fooding
+                    <input type="checkbox" name="amenitites" id="fooding" value="fooding">
+                </label><br>
+                <label >
+                    Sight seeing
+                    <input type="checkbox" name="amenitites" id="sight Seeing" value="sight seeing">
+                </label>
+            </div><br>
+
+            <div class="form" id="discountCoupen">
+                <label for="discount">Discount Coupen code:</label><br>
+                <input type="text" name="discount" id="discount" placeholder="UNKNOWN_TYPE">
+            </div><br>
+
+            <div class="form" id="terms">
+                <label>Terms and Conditions*: </label><br>
+                <input type="radio" name="t&c's" id="agree" value="agree">
+                <label for="agree">I agree</label>
+                <input type="radio" name="t&c's" id="disagree" value="disagree">
+                <label for="disagree">I disagree</label>
+            </div><br>
+
+            <button>Complete Reservation</button>
+           
+        </form>
+    </main>
+</body>
+</html>

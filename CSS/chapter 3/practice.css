@@ -1,0 +1,23 @@
+/* question no 1
+div{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+    border: 5px dotted black;
+} */
+/* question  no 2
+div{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+} */
+ul li{
+    display: inline-block;
+    /* It disapper because by default list items have display "list-item" when we make it inline that property is overriden
+    hence bullets disapper */
+}
